@@ -6,19 +6,19 @@ An AI-based hiring platform that bridges the gap between job seekers and employe
 
 ## Project Details
 
-| Field | Details |
-|-------|---------|
-| Subject | AI in Engineering & Science (AIES) |
-| Class | CSE (AIDS) — Panel A, Batch A3 |
-| Institution | — |
+| Field       | Details                            |
+| ----------- | ---------------------------------- |
+| Subject     | AI in Engineering & Science (AIES) |
+| Class       | CSE (AIDS) — Panel A, Batch A3     |
+| Institution | MIT - WPU                          |
 
 ### Group Members
 
-| SR. No | Roll No | PRN | Name |
-|--------|---------|-----|------|
-| 1 | 46 | 1262240853 | Purvi Agarwal |
-| 2 | 49 | 1262240865 | Afiya Amanulla |
-| 3 | 51 | 1262240867 | Agnes Maria Thomas |
+| SR. No | Roll No | PRN        | Name               |
+| ------ | ------- | ---------- | ------------------ |
+| 1      | 46      | 1262240853 | Purvi Agarwal      |
+| 2      | 49      | 1262240865 | Afiya Amanulla     |
+| 3      | 51      | 1262240867 | Agnes Maria Thomas |
 
 ---
 
@@ -48,14 +48,14 @@ This system solves both problems through two dedicated portals:
 
 ## Tech Stack
 
-| Layer | Technology |
-|-------|-----------|
-| PDF parsing | `pdfplumber` |
-| Skill extraction | `spaCy` |
+| Layer              | Technology              |
+| ------------------ | ----------------------- |
+| PDF parsing        | `pdfplumber`            |
+| Skill extraction   | `spaCy`                 |
 | Matching algorithm | `scikit-learn` (TF-IDF) |
-| User interface | `Streamlit` |
-| Language | Python 3.x |
-| Version control | Git + GitHub |
+| User interface     | `Streamlit`             |
+| Language           | Python 3.x              |
+| Version control    | Git + GitHub            |
 
 ---
 
@@ -100,57 +100,13 @@ AIES-PROJECT/
 
 ---
 
-## Work Division
-
-| Member | Responsibility |
-|--------|---------------|
-| Purvi Agarwal | Resume parser, skill extractor, job description parser (Steps 1–3) |
-| Afiya Amanulla | Matching engine, suggestions engine, testing (Steps 4, 7, 8) |
-| Agnes Maria Thomas | Job seeker portal, employer portal, demo and presentation (Steps 5, 6, 8) |
-
----
-
-## Getting Started
-
-### Prerequisites
-
-Make sure you have Python 3.x installed. Then install the required libraries:
-
-```bash
-pip install pdfplumber spacy scikit-learn streamlit
-python -m spacy download en_core_web_sm
-```
-
-### Running the Notebooks
-
-Open any notebook in the `notebooks/` folder using VS Code or Jupyter and run cells top to bottom.
-
-### Running the App
-
-```bash
-streamlit run app/jobseeker_portal.py
-```
-
----
-
 ## Problem Statement & Gaps Addressed
 
-| Gap Identified | Our Solution |
-|---------------|-------------|
-| Over-dependence on exact keyword matching | Synonym-aware skill extraction (ML = Machine Learning) |
-| No transparent feedback to candidates | Matched skills, missing skills, and suggestions clearly shown |
-| Poor skill extraction from unstructured resumes | AI-based parsing using spaCy |
-| Platforms are one-sided | Dual portal — one for job seekers, one for employers |
+| Gap Identified                                  | Our Solution                                                  |
+| ----------------------------------------------- | ------------------------------------------------------------- |
+| Over-dependence on exact keyword matching       | Synonym-aware skill extraction (ML = Machine Learning)        |
+| No transparent feedback to candidates           | Matched skills, missing skills, and suggestions clearly shown |
+| Poor skill extraction from unstructured resumes | AI-based parsing using spaCy                                  |
+| Platforms are one-sided                         | Dual portal — one for job seekers, one for employers          |
 
 ---
-
-## Status
-
-- [x] GitHub repository set up
-- [x] Resume PDF parsing working
-- [ ] Skill extractor
-- [ ] Matching engine
-- [ ] Job seeker portal
-- [ ] Employer portal
-- [ ] Suggestions engine
-- [ ] Final testing and demo
